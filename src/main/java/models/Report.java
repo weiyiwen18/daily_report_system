@@ -83,6 +83,13 @@ public class Report {
     private String content;
 
     /**
+     * 商談状況
+     */
+    @Lob
+    @Column(name = JpaConst.REP_COL_STATUS , nullable = false)
+    private String status;
+
+    /**
      * 登録日時
      */
     @Column(name = JpaConst.REP_COL_CREATED_AT, nullable = false)
