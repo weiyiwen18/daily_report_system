@@ -30,7 +30,7 @@
 <br /><br />
 
 <label for="${AttributeConst.REP_STATUS.getValue()}">商談状況</label><br />
-<textarea name="${AttributeConst.REP_STATUS.getValue()}" rows="10" cols="50">${report.content}</textarea>
+<textarea name="${AttributeConst.REP_STATUS.getValue()}" rows="10" cols="50">${report.status}</textarea>
 <br /><br />
 <input type="hidden" name="${AttributeConst.REP_ID.getValue()}" value="${report.id}" />
 <input type="hidden" name="${AttributeConst.TOKEN.getValue()}" value="${_token}" />
